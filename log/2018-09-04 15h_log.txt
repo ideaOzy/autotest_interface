@@ -1,0 +1,48 @@
+2018-09-04 15:00:40,555 - utils.log - INFO : 读取测试用例...
+2018-09-04 15:00:40,561 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-04 15:00:40,564 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-04 15:00:40,570 - utils.log - INFO : begin test...
+2018-09-04 15:00:40,575 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-04 15:00:40,581 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-04 15:00:40,582 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-04 15:00:40,582 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-04 15:00:40,582 - utils.log - INFO : 请求方式: POST
+2018-09-04 15:00:40,583 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-04 15:00:40,683 - utils.log - INFO : post请求成功!
+2018-09-04 15:00:40,684 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-04 15:00:40,684 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-04 15:00:40,686 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-04 15:00:40,686 - utils.log - INFO : 接口说明: 测试api2
+2018-09-04 15:00:40,687 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-04 15:00:40,687 - utils.log - INFO : 请求参数: {}
+2018-09-04 15:00:40,687 - utils.log - INFO : 请求方式: GET
+2018-09-04 15:00:40,688 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-04 15:00:40,855 - __name__  - ERROR : get请求响应错误：500
+2018-09-04 15:00:40,855 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-04 15:00:40,855 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-04 15:00:40,859 - utils.log - INFO : end test.  run in 2018-09-04 15h_00m
+2018-09-04 15:00:40,862 - utils.log - INFO : 最新的测试报告为：E:\workspace\AutoTest\autotest_interface\report\2018-09-04 15h_00m_report.html
+2018-09-04 15:22:34,177 - utils.log - INFO : 读取测试用例...
+2018-09-04 15:22:34,179 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-04 15:22:34,181 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-04 15:22:34,188 - utils.log - INFO : begin test...
+2018-09-04 15:22:34,201 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-04 15:22:34,201 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-04 15:22:34,201 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-04 15:22:34,202 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-04 15:22:34,203 - utils.log - INFO : 请求方式: POST
+2018-09-04 15:22:34,204 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-04 15:22:34,338 - utils.log - INFO : post请求成功!
+2018-09-04 15:22:34,339 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-04 15:22:34,339 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-04 15:22:34,341 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-04 15:22:34,341 - utils.log - INFO : 接口说明: 测试api2
+2018-09-04 15:22:34,342 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-04 15:22:34,342 - utils.log - INFO : 请求参数: {}
+2018-09-04 15:22:34,342 - utils.log - INFO : 请求方式: GET
+2018-09-04 15:22:34,343 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-04 15:22:39,358 - __name__  - ERROR : get请求异常,异常提示：ReadTimeout(ReadTimeoutError("HTTPConnectionPool(host='10.8.85.6', port=8011): Read timed out. (read timeout=5)",),)
+2018-09-04 15:22:39,359 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-04 15:22:39,359 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-04 15:22:39,364 - utils.log - INFO : end test.  run in 2018-09-04 15h_22m
+2018-09-04 15:22:39,367 - utils.log - INFO : 最新的测试报告为：E:\workspace\AutoTest\autotest_interface\report\2018-09-04 15h_22m_report.html

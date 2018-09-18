@@ -1,0 +1,138 @@
+2018-09-07 14:36:52,129 - utils.log - INFO : 读取测试用例...
+2018-09-07 14:36:52,133 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-07 14:36:52,133 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-07 14:36:52,155 - utils.log - INFO : begin test...
+2018-09-07 14:36:52,157 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:36:52,157 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-07 14:36:52,158 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-07 14:36:52,158 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-07 14:36:52,158 - utils.log - INFO : 请求方式: POST
+2018-09-07 14:36:52,158 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-07 14:36:52,260 - utils.log - INFO : post请求成功!
+2018-09-07 14:36:52,263 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-07 14:36:52,263 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:36:52,265 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:36:52,265 - utils.log - INFO : 接口说明: 测试api2
+2018-09-07 14:36:52,265 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-07 14:36:52,265 - utils.log - INFO : 请求参数: {}
+2018-09-07 14:36:52,266 - utils.log - INFO : 请求方式: GET
+2018-09-07 14:36:52,266 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-07 14:36:52,376 - __name__  - ERROR : get请求响应错误：500
+2018-09-07 14:36:52,376 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-07 14:36:52,376 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:36:52,379 - utils.log - INFO : end test.  run in 2018-09-07 14h_36m
+2018-09-07 14:42:03,744 - utils.log - INFO : 读取测试用例...
+2018-09-07 14:42:03,744 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-07 14:42:03,745 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-07 14:42:03,767 - utils.log - INFO : begin test...
+2018-09-07 14:42:03,769 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:42:03,770 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-07 14:42:03,770 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-07 14:42:03,770 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-07 14:42:03,771 - utils.log - INFO : 请求方式: POST
+2018-09-07 14:42:03,771 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-07 14:42:03,879 - utils.log - INFO : post请求成功!
+2018-09-07 14:42:03,880 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-07 14:42:03,881 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:42:03,882 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:42:03,882 - utils.log - INFO : 接口说明: 测试api2
+2018-09-07 14:42:03,883 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-07 14:42:03,883 - utils.log - INFO : 请求参数: {}
+2018-09-07 14:42:03,883 - utils.log - INFO : 请求方式: GET
+2018-09-07 14:42:03,884 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-07 14:42:04,024 - __name__  - ERROR : get请求响应错误：500
+2018-09-07 14:42:04,025 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-07 14:42:04,025 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:42:04,029 - utils.log - INFO : end test.  run in 2018-09-07 14h_42m
+2018-09-07 14:44:34,991 - utils.log - INFO : 读取测试用例...
+2018-09-07 14:44:34,992 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-07 14:44:34,992 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-07 14:44:35,015 - utils.log - INFO : begin test...
+2018-09-07 14:44:35,017 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:44:35,017 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-07 14:44:35,017 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-07 14:44:35,017 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-07 14:44:35,018 - utils.log - INFO : 请求方式: POST
+2018-09-07 14:44:35,018 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-07 14:44:35,113 - utils.log - INFO : post请求成功!
+2018-09-07 14:44:35,118 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-07 14:44:35,119 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:44:35,120 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:44:35,121 - utils.log - INFO : 接口说明: 测试api2
+2018-09-07 14:44:35,121 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-07 14:44:35,121 - utils.log - INFO : 请求参数: {}
+2018-09-07 14:44:35,122 - utils.log - INFO : 请求方式: GET
+2018-09-07 14:44:35,122 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-07 14:44:35,243 - __name__  - ERROR : get请求响应错误：500
+2018-09-07 14:44:35,244 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-07 14:44:35,245 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:44:35,248 - utils.log - INFO : end test.  run in 2018-09-07 14h_44m
+2018-09-07 14:45:43,405 - utils.log - INFO : 读取测试用例...
+2018-09-07 14:45:43,405 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-07 14:45:43,406 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-07 14:45:43,427 - utils.log - INFO : begin test...
+2018-09-07 14:45:43,428 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:45:43,429 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-07 14:45:43,429 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-07 14:45:43,429 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-07 14:45:43,430 - utils.log - INFO : 请求方式: POST
+2018-09-07 14:45:43,430 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-07 14:45:43,526 - utils.log - INFO : post请求成功!
+2018-09-07 14:45:43,527 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-07 14:45:43,528 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:45:43,529 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:45:43,530 - utils.log - INFO : 接口说明: 测试api2
+2018-09-07 14:45:43,530 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-07 14:45:43,530 - utils.log - INFO : 请求参数: {}
+2018-09-07 14:45:43,530 - utils.log - INFO : 请求方式: GET
+2018-09-07 14:45:43,531 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-07 14:45:43,664 - __name__  - ERROR : get请求响应错误：500
+2018-09-07 14:45:43,665 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-07 14:45:43,665 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:45:43,668 - utils.log - INFO : end test.  run in 2018-09-07 14h_45m
+2018-09-07 14:49:20,337 - utils.log - INFO : 读取测试用例...
+2018-09-07 14:49:20,337 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-07 14:49:20,337 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-07 14:49:20,360 - utils.log - INFO : begin test...
+2018-09-07 14:49:20,361 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:49:20,361 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-07 14:49:20,361 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-07 14:49:20,362 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-07 14:49:20,362 - utils.log - INFO : 请求方式: POST
+2018-09-07 14:49:20,362 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-07 14:49:20,511 - utils.log - INFO : post请求成功!
+2018-09-07 14:49:20,512 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-07 14:49:20,513 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:49:20,514 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:49:20,514 - utils.log - INFO : 接口说明: 测试api2
+2018-09-07 14:49:20,515 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-07 14:49:20,515 - utils.log - INFO : 请求参数: {}
+2018-09-07 14:49:20,515 - utils.log - INFO : 请求方式: GET
+2018-09-07 14:49:20,516 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-07 14:49:21,869 - __name__  - ERROR : get请求响应错误：500
+2018-09-07 14:49:21,869 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-07 14:49:21,870 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:49:21,874 - utils.log - INFO : end test.  run in 2018-09-07 14h_49m
+2018-09-07 14:55:16,350 - utils.log - INFO : 读取测试用例...
+2018-09-07 14:55:16,351 - utils.log - INFO : 共读取 2 个测试用例。
+2018-09-07 14:55:16,351 - utils.log - INFO : 测试用例集合: [{'id': 1.0, 'name': '图灵api接口', 'url': 'http://www.tuling123.com/openapi/api', 'method': 'POST', 'params': '{"name":"zhang"}', 'expect_value': '{"code":40001,"text":"亲爱的，key不对哦。"}', 'key': 'dfeb1cc8125943d29764a2f2f5c33739'}, {'id': 2.0, 'name': '测试api2', 'url': 'http://10.8.85.6:8011/api/register/HelloWorld', 'method': 'GET', 'params': '{}', 'expect_value': '"Hello World! xxxxxxxxxx"', 'key': ''}]
+2018-09-07 14:55:16,375 - utils.log - INFO : begin test...
+2018-09-07 14:55:16,376 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:55:16,376 - utils.log - INFO : 接口说明: 图灵api接口
+2018-09-07 14:55:16,376 - utils.log - INFO : 请求url: http://www.tuling123.com/openapi/api
+2018-09-07 14:55:16,377 - utils.log - INFO : 请求参数: {"name":"zhang"}
+2018-09-07 14:55:16,377 - utils.log - INFO : 请求方式: POST
+2018-09-07 14:55:16,377 - utils.log - INFO : 请求期望值: {"code":40001,"text":"亲爱的，key不对哦。"}
+2018-09-07 14:55:16,488 - utils.log - INFO : post请求成功!
+2018-09-07 14:55:16,489 - utils.log - INFO : 响应结果: {"code":40007,"text":"亲爱的，参数异常。"}
+2018-09-07 14:55:16,490 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:55:16,491 - utils.log - INFO : ------------测试用例运行开始-----------
+2018-09-07 14:55:16,491 - utils.log - INFO : 接口说明: 测试api2
+2018-09-07 14:55:16,492 - utils.log - INFO : 请求url: http://10.8.85.6:8011/api/register/HelloWorld
+2018-09-07 14:55:16,492 - utils.log - INFO : 请求参数: {}
+2018-09-07 14:55:16,492 - utils.log - INFO : 请求方式: GET
+2018-09-07 14:55:16,493 - utils.log - INFO : 请求期望值: "Hello World! xxxxxxxxxx"
+2018-09-07 14:55:16,673 - __name__  - ERROR : get请求响应错误：500
+2018-09-07 14:55:16,674 - utils.log - INFO : 响应结果: "htpp请求错误!"
+2018-09-07 14:55:16,674 - utils.log - INFO : ------------测试用例运行结束-----------
+2018-09-07 14:55:16,678 - utils.log - INFO : end test.  run in 2018-09-07 14h_55m

@@ -1,0 +1,16 @@
+{
+    "name": "zhangying", 
+    "email": {
+        "server": "smtp.united-imaging.com",
+        "sender": "softtester@united-imaging.com",
+        "password": "xAcmQ3gg",
+        "receiver": ["ying.zhang01@united-imaging.com"],
+        "title": "自动化接口测试框架-测试邮件"
+    },
+    "report": {
+        "title": "xx测试报告",
+        "description": "用例执行情况：",
+        "tester": "张颖",
+        "verbosity": 2
+    }
+}
